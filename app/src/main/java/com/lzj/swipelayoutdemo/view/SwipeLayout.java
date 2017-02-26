@@ -67,8 +67,9 @@ public class SwipeLayout extends FrameLayout {
          * @param child
          * @return
          */
+
         @Override
-        public int getViewVerticalDragRange(View child) {
+        public int getViewHorizontalDragRange(View child) {
             return mRange;
         }
 

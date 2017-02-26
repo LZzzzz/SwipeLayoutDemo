@@ -61,9 +61,9 @@ public class MyAdapter extends BaseAdapter implements View.OnClickListener, Swip
             case R.id.tv_delete:
                 Toast.makeText(v.getContext(), "删除", Toast.LENGTH_SHORT).show();
                 sl.close(true);
-                break;
         }
     }
+
 
     @Override
     public void onOpened(SwipeLayout layout) {
